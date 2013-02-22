@@ -16,7 +16,7 @@
 
 # Atemp fix for bluetooth
 PRODUCT_COPY_FILES += \
-    vendor/asus/tilapia/proprietary/bluetooth.default.so:system/lib/hardware/bluetooth.default.so
+    vendor/asus/tilapia/proprietary/bluetooth.default.so:system/lib/hw/bluetooth.default.so
 
 # Asus blob(s) necessary for Tilapia hardware
 PRODUCT_PACKAGES := \
