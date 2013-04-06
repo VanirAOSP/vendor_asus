@@ -1,4 +1,4 @@
-#!/system/sbin/sh
+#!/system/bin/sh
 
 BT_Service="Bluetooth Service"
 LOG_TAG="BtService"
@@ -19,9 +19,9 @@ warning ()
   echo $*
 }
 
-KILL="/bin/kill"
+KILL="/system/bin/kill"
 PPPD="/system/bin/pppd_btdun"
-GREP="/bin/grep"
+GREP="/system/bin/grep"
 
 killPppd() {
         PPPDPID=$2
