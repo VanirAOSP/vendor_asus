@@ -29,12 +29,7 @@ PRODUCT_PACKAGES := \
     sensors-config \
     tf_daemon \
 
-# Broadcom blob(s) necessary for Tilapia hardware
-PRODUCT_PACKAGES += \
-    glgps \
-    gps.tegra3 \
-    gpsconfig \
-    bcm4330
+# Broadcom blob(s) necessary for Tilapia hardware - in broadcom now
 
 # NVIDIA blob(s) necessary for Tilapia hardware
 PRODUCT_PACKAGES += \
@@ -95,25 +90,15 @@ PRODUCT_PACKAGES += \
     libstagefrighthw \
     libtf_crypto_sst
 
-# Widevine blob(s) necessary for Tilapia hardware
-PRODUCT_PACKAGES += \
-    libdrmdecrypt \
-    libwvdrm_L1 \
-    libWVStreamControlAPI_L1
+# Widevine blob(s) necessary for Tilapia hardware - In Widevine now
 
-# Invensense blob(s) necessary for Tilapia hardware
-PRODUCT_PACKAGES += \
-    libinvensense_hal \
-    libmllite \
-    libmplmpu
+# Invensense blob(s) necessary for Tilapia hardware - In Inversense now
 
 # Elan blob(s) necessary for Tilapia hardware
 PRODUCT_PACKAGES += \
     touch_fw
 
-# NXP blob(s) necessary for Tilapia hardware
-PRODUCT_PACKAGES += \
-    libpn544_fw
+# NXP blob(s) necessary for Tilapia hardware - IN NXP now
 
 # Radio blob(s) nessiary for Tilapia hardware
 PRODUCT_PACKAGES += \

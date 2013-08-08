@@ -96,44 +96,6 @@ include $(BUILD_PREBUILT)
 #--------------------------------------------------------------
 #  BROADCOM
 #--------------------------------------------------------------
-include $(CLEAR_VARS)
-LOCAL_MODULE := glgps
-LOCAL_SRC_FILES := glgps
-LOCAL_MODULE_CLASS := EXECUTABLES
-LOCAL_MODULE_PATH := $(TARGET_OUT_EXECUTABLES)
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_OWNER := broadcom
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := bcm4330
-LOCAL_SRC_FILES := bcm4330.hcd
-LOCAL_MODULE_SUFFIX := .hcd
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/firmware
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_OWNER := broadcom
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := gpsconfig
-LOCAL_SRC_FILES := gpsconfig.xml
-LOCAL_MODULE_SUFFIX := .xml
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/gps
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_OWNER := broadcom
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := gps.tegra3
-LOCAL_SRC_FILES := gps.tegra3.so
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT_SHARED_LIBRARIES)/hw
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_OWNER := broadcom
-include $(BUILD_PREBUILT)
 
 #--------------------------------------------------------------
 #  NVIDIA
@@ -703,68 +665,10 @@ include $(BUILD_PREBUILT)
 #--------------------------------------------------------------
 #  WIDEVINE
 #--------------------------------------------------------------
-include $(CLEAR_VARS)
-LOCAL_MODULE := libdrmdecrypt
-LOCAL_SRC_FILES := libdrmdecrypt.so
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_OWNER := widevine
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libwvdrm_L1
-LOCAL_SRC_FILES := libwvdrm_L1.so
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/lib
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_OWNER := widevine
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libWVStreamControlAPI_L1
-LOCAL_SRC_FILES := libWVStreamControlAPI_L1.so
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/lib
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_OWNER := widevine
-include $(BUILD_PREBUILT)
 
 #--------------------------------------------------------------
 #  INVENSENSE
 #--------------------------------------------------------------
-include $(CLEAR_VARS)
-LOCAL_MODULE := libinvensense_hal
-LOCAL_SRC_FILES := libinvensense_hal.so
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_OWNER := invensense
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libmllite
-LOCAL_SRC_FILES := libmllite.so
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_OWNER := invensense
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libmplmpu
-LOCAL_SRC_FILES := libmplmpu.so
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_OWNER := invensense
-include $(BUILD_PREBUILT)
 
 #--------------------------------------------------------------
 #  ELAN
@@ -782,15 +686,6 @@ include $(BUILD_PREBUILT)
 #--------------------------------------------------------------
 #  NXP
 #--------------------------------------------------------------
-include $(CLEAR_VARS)
-LOCAL_MODULE := libpn544_fw
-LOCAL_SRC_FILES := libpn544_fw.so
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/firmware
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_OWNER := nxp
-include $(BUILD_PREBUILT)
 
 #--------------------------------------------------------------
 #  Radio
