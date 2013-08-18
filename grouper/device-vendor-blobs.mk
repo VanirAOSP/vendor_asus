@@ -12,7 +12,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Atemp fix for bluetooth
 PRODUCT_COPY_FILES += \
+    vendor/asus/tilapia/proprietary/bluetooth.default.so:system/lib/hw/bluetooth.default.so
+
+PRODUCT_COPY_FILES += \
+    vendor/asus/grouper/proprietary/bin/btmacreader:system/bin/btmacreader \
     vendor/asus/grouper/proprietary/bin/glgps:system/bin/glgps \
     vendor/asus/grouper/proprietary/bin/sensors-config:system/bin/sensors-config \
     vendor/asus/grouper/proprietary/bin/tf_daemon:system/bin/tf_daemon \
