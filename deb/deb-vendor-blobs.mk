@@ -44,11 +44,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/deb/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/asus/deb/proprietary/bin/usbhub_init:system/bin/usbhub_init \
     vendor/asus/deb/proprietary/etc/DxHDCP.cfg:system/etc/DxHDCP.cfg \
-    vendor/asus/deb/proprietary/etc/firmware/tzapps.b00:system/etc/firmware/tzapps.b00 \
-    vendor/asus/deb/proprietary/etc/firmware/tzapps.b01:system/etc/firmware/tzapps.b01 \
-    vendor/asus/deb/proprietary/etc/firmware/tzapps.b02:system/etc/firmware/tzapps.b02 \
-    vendor/asus/deb/proprietary/etc/firmware/tzapps.b03:system/etc/firmware/tzapps.b03 \
-    vendor/asus/deb/proprietary/etc/firmware/tzapps.mdt:system/etc/firmware/tzapps.mdt \
     vendor/asus/deb/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
     vendor/asus/deb/proprietary/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
     vendor/asus/deb/proprietary/etc/firmware/vidc.b02:system/etc/firmware/vidc.b02 \
@@ -129,6 +124,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/deb/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so \
     vendor/asus/deb/proprietary/lib/libsensor_user_cal.so:system/lib/libsensor_user_cal.so \
     vendor/asus/deb/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
+    vendor/asus/deb/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
     vendor/asus/deb/proprietary/lib/libxml.so:system/lib/libxml.so \
     vendor/asus/deb/proprietary/vendor/firmware/a300_pfp.fw:system/vendor/firmware/a300_pfp.fw \
     vendor/asus/deb/proprietary/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw \
@@ -159,11 +155,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/deb/proprietary/vendor/firmware/gss.b10:system/vendor/firmware/gss.b10 \
     vendor/asus/deb/proprietary/vendor/firmware/gss.b11:system/vendor/firmware/gss.b11 \
     vendor/asus/deb/proprietary/vendor/firmware/gss.mdt:system/vendor/firmware/gss.mdt \
-    vendor/asus/deb/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
-    vendor/asus/deb/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
-    vendor/asus/deb/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
-    vendor/asus/deb/proprietary/vendor/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
-    vendor/asus/deb/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
     vendor/asus/deb/proprietary/vendor/firmware/q6.b00:system/vendor/firmware/q6.b00 \
     vendor/asus/deb/proprietary/vendor/firmware/q6.b01:system/vendor/firmware/q6.b01 \
     vendor/asus/deb/proprietary/vendor/firmware/q6.b03:system/vendor/firmware/q6.b03 \
@@ -182,6 +173,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/deb/proprietary/vendor/firmware/wcnss.b04:system/vendor/firmware/wcnss.b04 \
     vendor/asus/deb/proprietary/vendor/firmware/wcnss.b05:system/vendor/firmware/wcnss.b05 \
     vendor/asus/deb/proprietary/vendor/firmware/wcnss.mdt:system/vendor/firmware/wcnss.mdt \
+    vendor/asus/deb/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/asus/deb/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/asus/deb/proprietary/vendor/lib/libgemini.so:system/vendor/lib/libgemini.so \
     vendor/asus/deb/proprietary/vendor/lib/libimage-jpeg-enc-omx-comp.so:system/vendor/lib/libimage-jpeg-enc-omx-comp.so \
@@ -203,4 +195,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/deb/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/asus/deb/proprietary/vendor/lib/libmmstillomx.so:system/vendor/lib/libmmstillomx.so \
     vendor/asus/deb/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
-    vendor/asus/deb/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so
+    vendor/asus/deb/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
+    vendor/asus/deb/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+    vendor/asus/deb/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/asus/deb/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+    vendor/asus/deb/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
